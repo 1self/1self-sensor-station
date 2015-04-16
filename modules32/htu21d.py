@@ -3,6 +3,13 @@ import time
 import quick2wire.i2c as i2c
 import binascii
 
+# ===========================================================================
+# HTU21D Class
+#
+# Copied to 1self-sensor-station with thanks from
+#    github.com/jwineinger/quick2wire-HTU21D
+# ===========================================================================
+
 
 class CRCFailed(Exception): pass
 

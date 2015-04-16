@@ -6,6 +6,9 @@ from ops_i2cbase import I2CBase
 # SI1145 Class
 #
 # Ported from github.com/adafruit/Adafruit_SI1145_Library/
+#
+# Copied to 1self-sensor-station with thanks from
+#    github.com/randymxj/OpenPythonSensor
 # ===========================================================================
 
 class SI1145:
