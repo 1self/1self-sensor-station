@@ -93,6 +93,8 @@ def do_capture(sensor, obj_1self):
 ## App run
 get_set_env_vars()
 
+SLEEP_FOR = 600
+
 print ("Writing events to ", ENV_VARS['API_URL'])
 
 SENSOR = htu21d.HTU21D()
@@ -109,6 +111,6 @@ while 1 == 1:
 
     do_send_to_1self(OBJ_1SELF, GEOFENCE)
     
-    print ("Now sleeping for 1200 seconds")
+    print ("Now sleeping for", SLEEP_FOR, "seconds")
     sys.stdout.flush()
-    time.sleep(1200)
+    time.sleep(SLEEP_FOR)
