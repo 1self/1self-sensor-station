@@ -9,7 +9,7 @@ global STREAM
 
 def get_set_env_vars():
     lines = None
-    with open('/home/pi/Desktop/1self-sensor-station/.env') as f:
+    with open('/home/pi/Desktop/Programming/1self-sensor-station/.env') as f:
         lines = f.readlines()
 
     for line in range(len(lines)):
